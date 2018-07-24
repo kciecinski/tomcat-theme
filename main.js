@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   $('.owl-carousel').owlCarousel({
   loop:true,
   items: 3,
-  margin:10,
+  margin:40,
 })
 document.addEventListener("scroll",function(){
   let rect = document.getElementsByTagName("main")[0].getBoundingClientRect()
